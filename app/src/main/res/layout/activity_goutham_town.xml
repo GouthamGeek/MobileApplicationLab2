@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GouthamTownActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            style="@style/header"
+            android:text="Town Houses"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/town1"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    style="@style/Details"
+                    android:text="@string/townAddress1"
+                    />
+                <TextView
+                    style="@style/Details"
+                    android:text="@string/townDiscription1"
+                    />
+                <TextView
+                    style="@style/Details"
+                    android:text="@string/townPrice1"
+                    />
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/gouthamTownCheckBox1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/town2"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    style="@style/Details"
+                    android:text="@string/townAddress2"
+                    />
+                <TextView
+                    style="@style/Details"
+                    android:text="@string/townDiscription2"
+                    />
+                <TextView
+                    style="@style/Details"
+                    android:text="@string/townPrice2"
+                    />
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/gouthamTownCheckBox2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/town3"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    style="@style/Details"
+                    android:text="@string/townAddress4"
+                    />
+                <TextView
+                    style="@style/Details"
+                    android:text="@string/townDiscription3"
+                    />
+                <TextView
+                    style="@style/Details"
+                    android:text="@string/townPrice3"
+                    />
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/gouthamTownCheckBox3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/town4"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    style="@style/Details"
+                    android:text="@string/townAddress4"
+                    />
+                <TextView
+                    style="@style/Details"
+                    android:text="@string/townDiscription4"
+                    />
+                <TextView
+                    style="@style/Details"
+                    android:text="@string/townPrice4"
+                    />
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/gouthamTownCheckBox4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/town5"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    style="@style/Details"
+                    android:text="@string/townAddress5"
+                    />
+                <TextView
+                    style="@style/Details"
+                    android:text="@string/townDiscription5"
+                    />
+                <TextView
+                    style="@style/Details"
+                    android:text="@string/townPrice5"
+                    />
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/gouthamTownCheckBox5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/gouthamTownNextButton"
+            style="@style/enter"
+            android:backgroundTint="#BA2D2D"
+            android:text="@string/nextButton" />
+
+    </LinearLayout>
+
+</ScrollView>

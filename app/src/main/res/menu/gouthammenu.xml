@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/GouthamApartment"
+        android:title="@string/Apartment" />
+    <item
+        android:id="@+id/GouthamDetached"
+        android:title="@string/Detached" />
+    <item
+        android:id="@+id/GouthamSemi"
+        android:title="@string/Semi" />
+    <item
+        android:id="@+id/GouthamCondo"
+        android:title="@string/Condo" />
+    <item
+        android:id="@+id/GouthamTown"
+        android:title="@string/Town" />
+</menu>

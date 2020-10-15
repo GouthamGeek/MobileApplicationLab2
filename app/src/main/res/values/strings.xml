@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">GouthamLab2</string>
+    <string name="header">LEASE OR HOME RENT.INC</string>
+    <string name="button">Enter</string>
+    <string name="Apartment">Apartment</string>
+    <string name="Detached">Detached Home</string>
+    <string name="Semi">Semi-Detached Home</string>
+    <string name="Condo">Condominium</string>
+    <string name="Town">Town House</string>
+
+    <string name="midheader">Select Apartment types from Menu</string>
+    <string name="Address1">14 Pagenello ct</string>
+    <string name="apartmentDiscription1">3 bedroom</string>
+    <string name="apartmentPrice1">CAD 1,700</string>
+    <string name="Address2">23 Burgundy Road</string>
+    <string name="apartmentDiscription2">3 bedroom</string>
+    <string name="apartmentPrice2">Price: CAD 1,300</string>
+    <string name="Address3">12 King street East</string>
+    <string name="apartmentDiscription3"> 2 bedroom</string>
+    <string name="apartmentPrice3">Price: CAD 1,450</string>
+    <string name="Address4">459 roadsworth rd</string>
+    <string name="apartmentDiscription4">3 bedroom</string>
+    <string name="apartmentPrice4">CAD 1,230</string>
+    <string name="Address5">55 York st</string>
+    <string name="apartmentDiscription5">2 bedroom</string>
+    <string name="apartmentPrice5">CAD 1,000</string>
+    <string name="nextButton">Next</string>
+    <string name="checkOutScreen">Check-out Screen</string>
+
+    <string name="detachedAddress1">399 Acers st</string>
+    <string name="detachedDiscription1">3 bedroom, 2 bathrooms </string>
+    <string name="detachedPrice1">CAD 3,500</string>
+    <string name="detachedAddress2">1 Kingviews Rd</string>
+    <string name="detachedDiscription2">3 bedroom, 3 bathrooms</string>
+    <string name="detachedPrice2">CAD 3,200</string>
+    <string name="detachedAddress3">390 Haysworth St</string>
+    <string name="detachedDiscription3">4 bedroom, 3.5 bathrooms</string>
+    <string name="detachedPrice3">CAD 3,800</string>
+    <string name="detachedAddress4">1000 Armsdale Street</string>
+    <string name="detachedDiscription4">3 bedroom, 2 bathrooms</string>
+    <string name="detachedPrice4">CAD 3,300</string>
+    <string name="detachedAddress5">2020 Success Rd</string>
+    <string name="detachedDiscription5">2 Bedroom, 2 bathrooms </string>
+    <string name="detachedPrice5">CAD 2,800</string>
+    <string name="finalSelection">Select Your Options</string>
+
+    <string name="semiAddress1">300 Hunna Road</string>
+    <string name="semiDiscription1">3 Bedroom, 2 bathrooms</string>
+    <string name="semiPrice1">CAD 4,350</string>
+    <string name="semiAddress2">29 Elmsbay Ave</string>
+    <string name="semiDiscription2">4 Bedroom, 2.5 bathrooms</string>
+    <string name="semiPrice2">CAD 5,150</string>
+    <string name="semiAddress3">233 Steve St</string>
+    <string name="semiDiscription3">2 Bedroom, 2 bathroom s</string>
+    <string name="semiPrice3">CAD 3,300</string>
+    <string name="semiAddress4">1222 Andrew Rd</string>
+    <string name="semiDiscription4">4 Bedroom, 3.5 bathrooms </string>
+    <string name="semiPrice4">CAD 5,950</string>
+    <string name="semiAddress5">432 Jordan Ave</string>
+    <string name="semiDiscription5">4 Bedroom, 4 bathrooms</string>
+    <string name="semiPrice5">CAD 6,000</string>
+
+    <string name="townAddress1">23 Garfield St</string>
+    <string name="townDiscription1">3 Bedrooms, 2.5 bathrooms</string>
+    <string name="townPrice1">CAD 4,800</string>
+    <string name="townAddress2">99 Oakland Drive</string>
+    <string name="townDiscription2">3 Bedroom, 2 bathrooms</string>
+    <string name="townPrice2">CAD 4,200</string>
+    <string name="townAddress3">30 Kiyaaa Streett</string>
+    <string name="townDiscription3">3 Bedroom, 2 bathrooms </string>
+    <string name="townPrice3">CAD 3,950</string>
+    <string name="townAddress4">20 Hediot Rd</string>
+    <string name="townDiscription4">4 Bedroom, 3 bathrooms</string>
+    <string name="townPrice4">CAD 5,000</string>
+    <string name="townAddress5">33 Somaliaa Blvd</string>
+    <string name="townDiscription5">3 Bedroom, 2 bathrooms</string>
+    <string name="townPrice5">CAD 4,250</string>
+
+    <string name="condoAddress1">122 Islingston Dr</string>
+    <string name="condoDiscription1">2 Bedroom, 1 bathrooms</string>
+    <string name="condoPrice1">CAD 2,800</string>
+    <string name="condoAddress2">333 Kipling Drive</string>
+    <string name="condoDiscription2">1 Bedroom, 1 bathrooms</string>
+    <string name="condoPrice2">CAD 1,200</string>
+    <string name="condoAddress3">12 Kyle Street</string>
+    <string name="condoDiscription3">3 Bedroom, 2 bathrooms</string>
+    <string name="condoPrice3">CAD 2,200</string>
+    <string name="condoAddress4">10 Thomas Drive</string>
+    <string name="condoDiscription4">2 Bedroom,  2 bathrooms</string>
+    <string name="condoPrice4">CAD 1,950</string>
+    <string name="condoAddress5">30 Sherbert Rd</string>
+    <string name="condoDiscription5">2 Bedroom, 1 bathrooms</string>
+    <string name="condoPrice5">CAD 1,750</string>
+
+
+    <string name="cash">Cash</string>
+    <string name="creditCard">Credit Card</string>
+    <string name="debitCard">Debit Card</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

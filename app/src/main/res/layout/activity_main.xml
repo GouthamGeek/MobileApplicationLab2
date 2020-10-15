@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CD6868"
+    android:backgroundTint="#FFE4E4"
+    android:orientation="vertical"
+    tools:context=".GouthamActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="170dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="70dp"
+        android:layout_weight="0"
+        android:background="#DA2D2D"
+        android:backgroundTint="#B31F1F"
+        android:text="@string/header"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:autoSizeTextType="none" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="219dp"
+        android:src="@drawable/house" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="137dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:backgroundTint="#E8A83030"
+        android:text="@string/button"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF" />
+</LinearLayout>

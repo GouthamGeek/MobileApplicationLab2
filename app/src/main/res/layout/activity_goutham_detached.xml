@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GouthamDetachedActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            style="@style/header"
+            android:text="Detached Homes"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/house1"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    style="@style/Details"
+                    android:text="@string/detachedAddress1"
+                    />
+                <TextView
+                    style="@style/Details"
+                    android:text="@string/detachedDiscription1"
+                    />
+                <TextView
+                    style="@style/Details"
+                    android:text="@string/detachedPrice1"
+                    />
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/gouthamDetachedCheckBox1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/house2"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    style="@style/Details"
+                    android:text="@string/detachedAddress2"
+                    />
+                <TextView
+                    style="@style/Details"
+                    android:text="@string/detachedDiscription2"
+                    />
+                <TextView
+                    style="@style/Details"
+                    android:text="@string/detachedPrice2"
+                    />
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/gouthamDetachedCheckBox2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/house3"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    style="@style/Details"
+                    android:text="@string/detachedDiscription3"
+                    />
+                <TextView
+                    style="@style/Details"
+                    android:text="@string/detachedDiscription3"
+                    />
+                <TextView
+                    style="@style/Details"
+                    android:text="@string/detachedPrice3"
+                    />
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/gouthamDetachCheckBox3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/house4"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    style="@style/Details"
+                    android:text="@string/detachedAddress4"
+                    />
+                <TextView
+                    style="@style/Details"
+                    android:text="@string/detachedDiscription4"
+                    />
+                <TextView
+                    style="@style/Details"
+                    android:text="@string/detachedPrice4"
+                    />
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/gouthamDetachCheckBox4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/house5"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    style="@style/Details"
+                    android:text="@string/detachedAddress5"
+                    />
+                <TextView
+                    style="@style/Details"
+                    android:text="@string/detachedDiscription5"
+                    />
+                <TextView
+                    style="@style/Details"
+                    android:text="@string/detachedPrice5"
+                    />
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/gouthamDetachCheckBox5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/gouthamDetachNextButton"
+            style="@style/enter"
+            android:backgroundTint="#B83838"
+            android:text="@string/nextButton" />
+
+    </LinearLayout>
+
+</ScrollView>

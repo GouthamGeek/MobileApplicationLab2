@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".GouthamCheckoutActivity"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/header"
+        android:layout_marginTop="30dp"
+        android:text="@string/checkOutScreen"
+
+        android:textSize="25sp" />
+
+
+    <TextView
+        style="@style/midheader"
+        android:text="Please Select Houses Interested In:"/>
+
+    <RadioGroup
+        android:id="@+id/gouthamRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="60dp"
+        android:orientation="vertical">
+
+    </RadioGroup>
+
+    <TextView
+        style="@style/midheader"
+        android:text="Pick Payment Options:"/>
+
+    <RadioGroup
+        android:id="@+id/gouthamPaymentOptionRG"
+        android:layout_width="180dp"
+        android:layout_height="141dp"
+        android:layout_margin="30dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/gouthamCashRbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/cash"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:id="@+id/gouthamCreditCardRbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/creditCard"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:id="@+id/gouthamDebitCardRbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/debitCard"
+            android:textSize="22sp" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/gouthamCheckoutButton"
+        style="@style/enter"
+        android:backgroundTint="#B31F1F"
+        android:text="@string/nextButton" />
+
+</LinearLayout>
